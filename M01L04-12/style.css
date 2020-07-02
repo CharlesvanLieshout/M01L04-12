@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&display=swap");
+body {
+  background-color: steelblue;
+  color: whitesmoke;
+  font: normal 12px "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  font-family: "museomoderno";
+}
+
+.navigatie {
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  padding: 5px;
+}
+.navigatie li {
+  display: inline;
+  font-size: 2em;
+  padding-right: 20px;
+}
+
+main {
+  background-color: azure;
+  color: grey;
+  border: 12px gray solid;
+  border-radius: 25px;
+  margin: 30px;
+  padding: 30px 20px 30px 20px;
+}
+
+label {
+  display: inline-block;
+  width: 260px;
+  text-align: left;
+}
+input {
+  float: right;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+​ #footer-background {
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px 5px;
+  background-color: lightsteelblue;
+  color: steelblue;
+}
+.file {
+  display: inline-block;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: azure;
+    color: steelblue;
+    font-size: 0.6rem;
+  }
+  .navigatie {
+    border: 2px dotted grey;
+  }
+
+  main {
+    background-color: steelblue;
+    color: azure;
+  }
+}

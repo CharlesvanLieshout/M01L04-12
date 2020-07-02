@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Contact</title>
+  </head>
+
+  <body>
+    <h1>Contact</h1>
+    <main>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Jouw naam: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Jouw e-mail: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Jouw telefoonnummer: <input type="tel" name="tel" /></label>
+        </p>
+        <p>
+          <label>Jouw leeftijd: <input type="number" name="age" /></label>
+        </p>
+        <p>
+          <label>Geboortedatum: <input type="date" name="dateofbirth" /></label>
+        </p>
+
+        <p>
+          <h3>Geslacht: </h3>
+          <label
+            ><input type="radio" name="gender" />Vrouw</label
+          >
+        </p>
+        <p>
+          <label
+            >Geslacht: <input type="radio" name="gender" />Man</label
+          >
+        </p>
+        <p>
+          <label
+            >Geslacht: <input type="radio" name="gender" />Anders</label
+          >
+        </p>
+       <h3>Favoriete Cuisine</h3>
+       <p>
+          <label
+            > <input type="checkbox" name="favoritcuisine"
+          />Arabisch</label>
+        </p>
+        <p>
+          <label
+            > <input type="checkbox" name="favoritcuisine"
+          />Frans</label>
+        </p>
+        <p>
+          <label
+            ><input type="checkbox" name="favoritcuisine"
+          />Italiaans</label>
+        </p>
+        <p>
+          <label
+            ><input type="checkbox" name="favoritcuisine"
+          />Spaans</label>
+        </p>
+
+        <p>
+          <label>Selecteer jouw lievelingskleur: <input type="color" name="color" /></label>
+        </p>
+       
+        <p>
+          <label>
+            Vertel wat over jezelf:
+            <textarea name="message" rows="5" cols="30"></textarea>
+          </label>
+        </p>
+        <p>
+        Stuur je recept in:</p>
+        <p class = "file">
+        <input type = "file">
+           </p>
+           <p>
+             Een link naar je recept:
+           </p>
+           <p class = "file">
+             <input type = "url">
+           </p>
+           <p>
+            <button type="reset">reset</button>
+          </p>
+        <p>
+          <button type="submit">verzenden</button>
+        </p>
+      </form>
+
+      <a href="index.html">TERUG NAAR HOME</a>
+    </main>
+  </body>
+</html>
